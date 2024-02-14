@@ -76,7 +76,7 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif ;
     font-weight: 400;
     font-size: 16px;
-    color: rgb(7, 7, 7);
+   
     
 }
 
@@ -118,20 +118,38 @@ body, html{
     align-items: center;
     width: 100%;
     margin: auto;
-    background-color: rgb(32, 128, 32);
+    background-color:#D7CBBF;
+
 }
 
 .new-item-text{
     padding: 50px;
-    color: white;
+    color: #008000;
+    width: 50%;
+    
+    font-style: oblique;
+    font-size:20px;
+   
 }
 
 .text{
     text-align:left;
-    padding:10px 10px;
-    margin-bottom: 50%;
+    padding:20px 0;
+    
 
 
+}
+
+.text button{
+    background-color:rgb(7, 7, 7);
+    border: none;
+    color:rgb(252, 249, 249);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 20px;
 }
 
 .text h3{
@@ -144,7 +162,7 @@ img{
 }
 
 .img{
-    width: 100%;
+    width: 50%;
 
 }
 
@@ -159,38 +177,59 @@ img{
 
  .services{
     padding: 100px 50px 100px 50px;
-    text-align:center;
+    
+    margin:30px;
  }   
 
  .services h2{
+    text-align:center;
     padding: 20px;
     margin-bottom: 20px;
  }
 
  .product-lists {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 40px;
-        grid-row-gap: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 14px;
     }
 
+    .products button{
+    background-color:rgb(7, 7, 7);
+    border: none;
+    color:rgb(252, 249, 249);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    }
+
+    .product-items{
+        padding: 30px 20px 30px 20px;
+    }
 
     .product-items img{
-        width: 200px;
+       
         height: 300px;
-        padding: 100px 50px 100px 50px;
         border-radius: 10%;
     }
 
+
 .products {
-padding: 100px 50px 100px 50px;
+padding: 50px 120px;
 text-align: center;
 margin:auto;
-background-color: rgb(196, 238, 196);
+background-color:#D7CBBF;
+
 border-radius: 16px;
 }
 
+.team-members{
+    margin: 20px;
+    padding: 30px 20px;
+}
 
     .members{
             display: grid;
@@ -198,7 +237,13 @@ border-radius: 16px;
             grid-template-rows: 1fr;
             grid-column-gap: 36px;
             grid-row-gap: 0px;
+            margin: 20px;
+            padding: 50px;
             
+    }
+
+    .team-members h2{
+        text-align: center;
     }
 
     .products h2{
