@@ -86,9 +86,9 @@ body, html{
 }
 .header-text{
         text-align: center;
-        margin-top: 70px;
+        margin-top: 100px;
         width: 100%;
-        padding: 80px 50px 120 50px;
+        padding: 80px 50px 80px 50px;
         color:green;
         font-weight:bold;
         font-size:small;
@@ -169,16 +169,28 @@ img{
 
  .product-lists {
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 25px;
-        grid-row-gap: 33px;
-        background-color: rgb(196, 238, 196);
+        grid-column-gap: 40px;
+        grid-row-gap: 60px;
     }
 
-    .product-items{
+
+    .product-items img{
         width: 200px;
+        height: 300px;
+        padding: 100px 50px 100px 50px;
+        border-radius: 10%;
     }
+
+.products {
+padding: 100px 50px 100px 50px;
+text-align: center;
+margin:auto;
+background-color: rgb(196, 238, 196);
+border-radius: 16px;
+}
+
 
     .members{
             display: grid;
